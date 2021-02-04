@@ -1,0 +1,29 @@
+.navbar__components {
+  padding: 1rem 2rem;
+}
+
+.navbar__components {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__components > img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.navbar__icons {
+  display: flex;
+}
+
+.navbar__icon {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 560px) {
+  .navbar__icon {
+    margin-left: 1rem;
+  }
+}

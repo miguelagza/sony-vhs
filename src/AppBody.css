@@ -1,0 +1,65 @@
+.appBody {
+  padding-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.appBody > button {
+  position: fixed;
+  right: 10px;
+  top: 7rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.appBody__cinematron {
+  padding: 2rem;
+}
+
+.appBody__cinematron > h1 {
+  font-size: 8rem;
+}
+
+.appBody__cinematron > h3 {
+  font-size: 1.8rem;
+}
+
+.appBody__explore {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem 0.5rem;
+  border-top-left-radius: 1rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .appBody__cinematron > h1 {
+    font-size: 4rem;
+  }
+
+  .appBody__cinematron > h3 {
+    font-size: 1rem;
+  }
+
+  .appBody__explore > h4 {
+    display: none;
+  }
+
+  .appBody__explore {
+    padding: 1rem 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .appBody__cinematron > h1 {
+    font-size: 3rem;
+  }
+}
